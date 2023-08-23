@@ -1,0 +1,17 @@
+table, td, th {
+    border: 1px solid;
+    padding: 1rem;
+  }
+  
+  table {
+    width: max-content;
+    border-collapse: collapse;
+    background: rgb(199, 199, 244);
+    
+  }
+
+  .list-table {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+  }

@@ -1,0 +1,22 @@
+<div class="list-table">
+ <table>
+    <thead>
+        <th>Student Name</th>
+        <th>Student Id</th>
+        <th>Student Class</th>
+        <th>Student Address</th>
+        <th>Action</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let student of students;let i=index">
+            <td>{{student.name}}</td>
+            <td>{{student.id}}</td>
+            <td>{{student.s_class}}</td>
+            <td>{{student.address}}</td>
+            <td><button (click)="removeRow(i)">remove</button></td>
+        </tr>
+    </tbody>
+    
+</table>
+</div>
+

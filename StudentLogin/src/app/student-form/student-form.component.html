@@ -1,0 +1,27 @@
+<div class="studentBox">
+    <Form [formGroup]="form" class="student-form">
+        <div class="formBox">
+            <input 
+            type="text" 
+            placeholder="Student Name" 
+            formControlName="student" />
+            <input 
+            type="text" 
+            placeholder="Student Id" 
+            formControlName="id" />
+            <input
+            type="text"
+            placeholder="Student Class"
+            formControlName="studentClass"
+            />
+            <textarea
+            rows="5"
+            cols="8"
+            formControlName="address"
+            placeholder="Student Address"
+            ></textarea>
+           <button (click)="addStudent()">Save</button>
+        </div>
+    </Form>
+</div>
+

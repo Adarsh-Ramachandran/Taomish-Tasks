@@ -1,0 +1,25 @@
+.studentBox{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.student-form{
+    background: rgb(199, 199, 244);
+    display: flex;
+    width: min-content;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: .2rem .2rem .2rem .2rem  rgb(194, 195, 195);
+    border-radius: .5rem;
+}
+
+.formBox{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    gap: 1rem;
+    
+}
